@@ -1,0 +1,93 @@
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 15rem;
+    background-color:lightgray;
+    border: thin solid black; 
+    transition: 0.5s;
+    box-shadow: gray 2px 2px 5px;
+}
+
+input:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+input:focus {
+    background-color: white;
+    transition: 0.5s;
+}
+
+input[type=submit] {
+        padding: 2px 15px;
+        width: 100px;
+        margin-left: 50px;
+    }
+
+.col {
+    border: red thin solid;
+}
+
+nav {
+    background-color: #498eef;
+    color: white;
+    letter-spacing: 5px;
+}
+
+nav a {
+    border-radius:10px;
+    transition:0.5s;
+    margin: auto 10px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #77a7ea;
+}
+
+.CredPanel {
+    padding-top: 20px;
+    margin: 5px;
+}
+
+.error {
+    color: red;
+}
+
+.messageInput {
+    position: absolute;
+    bottom: 1px;
+    background-color:gray;
+    padding: 0;
+}
+
+.messageInput input[type=text]{
+    width: 70%;
+}
+
+.messageInput input[type=submit]{
+    width: 10%;
+    min-width: 100px;
+}
+
+.chatPanel {
+    font-family: Consolas;
+    margin-top: 4px !important;
+    margin: 10%;
+    position: absolute;
+    border: gray thin solid;
+    height: 70%;
+    line-height: 12px;
+}
+
+.chatPanel p{
+    margin: 5px 2px;
+}
